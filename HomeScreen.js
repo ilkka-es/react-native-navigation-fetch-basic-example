@@ -47,7 +47,7 @@ class HomeScreen extends React.Component {
               <Text style={styles.name}>{item.name.first} {item.name.last}</Text>
               <Text style={styles.email}>{item.email}</Text>
               <Button
-                title="Go to Details"
+                title="See user details"
                 color="gray"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
